@@ -45,7 +45,7 @@ npm start
 Second shell, launch the rosbridge_server
 ```
 . install/setup.bash
-ros2 launch ros2_robot_react_app ping_sonar.launch.py
+ros2 launch rosbridge_server rosbridge_websocket_launch.xml
 ```
 
 access the browser below.
